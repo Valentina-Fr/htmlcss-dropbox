@@ -68,6 +68,10 @@ img {
     text-align: right;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .bg-blue {
     background-color: #b4d0e7;
 }
@@ -282,6 +286,12 @@ hr {
     padding: 8px 15px;
     display: inline-block;
     margin: 20px 0;
+}
+
+/* Section 3 - Operations */
+
+.operations .feature {
+    margin-top: 50px;
 }
 
 
