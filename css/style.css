@@ -18,7 +18,7 @@ body {
 }
 
 .container-small {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -64,19 +64,20 @@ body {
     background-color: #b4d0e7;
 }
 
-.btn-blue, .main-menu ul li .btn-blue {
+.main-menu li .btn-blue, .btn-blue a, .btn-blue{
+    text-decoration: none;
     background-color: #0161ff;
     color: white;
     font-size: 14px;
     padding: 8px 15px;
 }
 
-.p-50 {
-    padding: 50px;
+.font-small {
+    font-size: 13px;
 }
 
-.font-small {
-    font-size: 12px;
+.mt-30 {
+    margin-top: 20px;
 }
 
 /* Header */
@@ -111,12 +112,12 @@ body {
 
 .jumbotron {
     padding: 50px 50px 0 50px;
-    font-weight: 600;
     height: 630px;
 }
 
 .jumbotron h1 {
     font-size: 70px;
+    font-weight: 600;
 }
 
 #jumbo-img {
@@ -124,7 +125,13 @@ body {
     margin-top: 50px;
 }
 
+.jumbo-text {
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
 .jumbo-text p {
+    font-weight: 600;
     padding-bottom: 30px;
 }
 
@@ -138,11 +145,18 @@ body {
 }
 
 /* Main */
+/* Section 1 */
 
 h2 {
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 
 main section {
@@ -155,8 +169,8 @@ main section {
     height: 20px;
     border-radius: 50%;
     border-style: solid;
-    display: inline-block;
-    margin-right: 15px;
+    vertical-align: text-top;
+    margin: 0 4px;
 }
 
 .btn-radio-blue {
@@ -165,12 +179,86 @@ main section {
 }
 
 .btn-radio-grey {
-    border-color: #f5f5f5;
+    border-color: lightgrey;
     border-width: 1px;
+    margin-left: 15px;
 }
-.fatturazione {
+
+.billing div {
+    display: inline-block;
+}
+
+.col-middle{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-left {
+    padding-right: 40px;
+}
+
+.col-right{
+    padding-left: 40px; 
+}
+
+.box-bottom {
+    height: 950px;
+    border: 1px solid lightgrey;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.box-top { 
+    width: 100%;
+    height: 50px; 
     line-height: 50px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin-top: 40px;
 }
+
+.font-grey {
+    color: lightgrey;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.plan {
+    list-style: none;
+    padding-left: 30px;
+    text-indent: -0.7em;
+}
+
+.plan li {
+    padding: 15px 0;
+}
+
+.plan+.btn-blue {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.font-small a {
+    color: #0161ff;
+}
+
+hr {
+    width: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.fa-check {
+    color: #0161ff;
+}
+
+.large-box .box-bottom{
+    height: 180px;
+}
+
 /* Footer */
 .bg-black {
     background-color: black;
