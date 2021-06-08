@@ -10,6 +10,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+i.fas, i.far{
+    margin-right: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* Utilities */
 
 .container-big {
@@ -145,7 +153,8 @@ body {
 }
 
 /* Main */
-/* Section 1 */
+
+/* Section 1 - Plan */
 
 h2 {
     font-size: 40px;
@@ -204,8 +213,8 @@ main section {
 .box-bottom {
     height: 950px;
     border: 1px solid lightgrey;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 30px;
 }
 
@@ -228,7 +237,7 @@ main section {
 
 .plan {
     list-style: none;
-    padding-left: 30px;
+    padding-left: 25px;
     text-indent: -0.7em;
 }
 
@@ -258,6 +267,23 @@ hr {
 .large-box .box-bottom{
     height: 180px;
 }
+
+/* Section 2 - Partner */
+
+.partner-text {
+    padding-left: 50px;    
+}
+
+.btn-trans {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    padding: 8px 15px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
 
 /* Footer */
 .bg-black {
