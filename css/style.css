@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    padding-top: 70px;
 }
 
 i.fas, i.far{
@@ -99,7 +100,12 @@ img {
 /* Header */
 
 .topbar {
+    width: 100%;
     height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .main-menu ul {
