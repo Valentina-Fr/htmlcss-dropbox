@@ -409,6 +409,47 @@ main section {
 }
 
 /* Footer */
+
+footer.bg-black {
+    height: 450px;
+    color: white;
+    margin-top: 100px;
+}
+
 .bg-black {
     background-color: black;
+}
+
+footer.bg-black h3 {
+    font-size: 18px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bottom-menu ul {
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+
+.bottom-menu ul li {
+    padding-bottom: 10px;
+}
+
+.bottom-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+footer.bg-black hr {
+    width: 100px;
+    margin-left: 30px; 
+    margin-bottom: 30px;
+}
+
+.language {
+    margin-left: 30px;
 }
