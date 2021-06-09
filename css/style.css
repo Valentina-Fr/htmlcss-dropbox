@@ -106,6 +106,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .main-menu ul {
@@ -164,7 +165,23 @@ img {
 .fa-arrow-down {
     font-size: 30px;
     padding-top: 30px;
+    animation: bounce 1s linear infinite;
 }
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 /* Main */
 
@@ -395,6 +412,10 @@ main section {
     margin-top: 80px;
 }
 
+.color-box:hover {
+    border: 8px solid rgba(255, 255, 255, 0.4);
+}
+
 /* Section 5 - faq */
 
 .faq>h3 {
@@ -412,6 +433,20 @@ main section {
    position: absolute;
    right: 10px;
    font-size: 20px;
+}
+
+.faq>.question>p {
+    margin-top: 40px;
+    display: none;
+    color: grey;
+}
+
+.faq>.question:hover p{
+    display: block;
+}
+
+.faq>.question:hover .fa-angle-down {
+    transform: rotate(180deg);
 }
 
 /* Footer */
