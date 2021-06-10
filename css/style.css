@@ -193,10 +193,11 @@ img {
 }
 
 .main-menu.text-right ul li ul li {
-   position: absolute;
-   background-color: white;
-   width: 170px;
-   visibility: hidden;
+    position: absolute;
+    background-color: white;
+    width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    visibility: hidden;
 }
 
 .main-menu.text-right ul li ul li a {
@@ -329,6 +330,10 @@ main section {
     height: 180px;
 }
 
+.large-box>.box-bottom .btn-blue {
+    padding: 8px 60px;
+}
+
 /* Section 2 - Partner */
 
 .partner-text {
@@ -381,7 +386,7 @@ main section {
 .spotlight {
     height: 380px;
     background-color: #f5f5f5;
-    padding: 35px;
+    padding: 40px 35px;
 }
 
 .spotlight header img {
